@@ -1,0 +1,26 @@
+{
+    "name": "com.juego.webservice",
+    "version": "0.0.1",
+    "unity": "2021.3",
+    "unityRelease": "19f1",
+    "displayName": "WebServiceFramework",
+    "description": "WebServiceFramwork using UnityWebRequest with coroutine. Supports GET and POST requests. Supported platforms iOS, Android",
+    "keywords": [
+        "WebRequest",
+        "WebService",
+        "RestAPI"
+    ],
+    "category": "UtilityFrameWorks",
+    "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+    },
+    "relatedPackages": {
+    },
+    "samples": [
+        {
+            "displayName": "Samples",
+            "description": "Sample demo of calling webrequest using Webservice Framework",
+            "path": "Samples~/RestAPISample"
+        }
+    ]
+}
